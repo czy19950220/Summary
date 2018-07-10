@@ -32,7 +32,7 @@ export default new Router({
       component: Popup,
       meta: {title: '纯css弹框'}
     },
-    //全屏手风琴图片
+    //全屏手风琴图片1
     {
       path: '/AccordionImg',
       name: 'AccordionImg',
