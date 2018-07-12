@@ -5,6 +5,7 @@ import CssPage from '@/views/CssPage'
 import FlexCard from '@/components/FlexCard'
 import Popup    from '@/components/Popup'
 import AccordionImg    from '@/components/AccordionImg'
+import LoginBgOne    from '@/components/LoginBgOne'
 
 Vue.use(Router)
 
@@ -38,6 +39,13 @@ export default new Router({
       name: 'AccordionImg',
       component: AccordionImg,
       meta: {title: '全屏手风琴图片'}
+    },
+    //星空背景登录
+    {
+      path: '/LoginBgOne',
+      name: 'LoginBgOne',
+      component: LoginBgOne,
+      meta: {title: '星空背景登录'}
     }
   ]
 })
