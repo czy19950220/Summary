@@ -26,7 +26,7 @@ export default {
           z: o(v, "zIndex", 5),
           o: o(v, "opacity", 0.5),
           c: o(v, "color", "255,255,255"),
-          n: o(v, "count", 99)
+          n: o(v, "count", 299)
         }
       }
       function k() {

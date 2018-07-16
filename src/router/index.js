@@ -6,6 +6,7 @@ import FlexCard from '@/components/FlexCard'
 import Popup    from '@/components/Popup'
 import AccordionImg    from '@/components/AccordionImg'
 import LoginBgOne    from '@/components/LoginBgOne'
+import BgHeike    from '@/components/BgHeike'
 
 Vue.use(Router)
 
@@ -46,6 +47,13 @@ export default new Router({
       name: 'LoginBgOne',
       component: LoginBgOne,
       meta: {title: '星空背景登录'}
+    },
+    //背景
+    {
+      path: '/BgHeike',
+      name: 'BgHeike',
+      component: BgHeike,
+      meta: {title: '黑客背景'}
     }
   ]
 })
