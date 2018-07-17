@@ -36,7 +36,7 @@ export default {
   },
   methods:{
     changeHash(){
-
+      this.$router.push('/#'+ Math.random())
     },
     // changeSex(som){//vuex的代码模板，可以用来粘贴
     //   //this.$store.commit('changeSex');
