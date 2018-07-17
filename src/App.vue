@@ -8,6 +8,8 @@
 export default {
   name: 'App',
   created(){
+    //神兽
+    /*region*/
     console.log("┏┛┻━━━┛┻┓\n" +
                  "┃｜｜｜｜｜｜｜┃\n" +
                  "┃　　　━　　　┃\n" +
@@ -21,6 +23,7 @@ export default {
                  "　　┃编程专用宠物┃\n" +
                  "　　┗┓┓┏━┳┓┛\n" +
                  "　　　┗┻┛　┗┻┛")
+    /*endregion*/
   }
 }
 </script>
